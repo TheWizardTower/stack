@@ -90,6 +90,8 @@ Other enhancements:
 
 Bug fixes:
 
+* `stack --docker-help` is now clearer about --docker implying
+   system-ghc: true, rather than both --docker and --no-docker.
 * `stack --nix-help` is also clearer about only --nix implying
    system-ghc: true
 * `stack haddock` now includes package names for all modules in the
