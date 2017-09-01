@@ -90,6 +90,8 @@ Other enhancements:
 
 Bug fixes:
 
+* `stack --nix-help` is also clearer about only --nix implying
+   system-ghc: true
 * `stack haddock` now includes package names for all modules in the
    Haddock index page. See:
   [#2886](https://github.com/commercialhaskell/stack/issues/2886)
