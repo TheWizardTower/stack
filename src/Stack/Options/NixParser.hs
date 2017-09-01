@@ -14,7 +14,7 @@ nixOptsParser hide0 = overrideActivation <$>
   (NixOptsMonoid
   <$> pure (Any False)
   <*> firstBoolFlags nixCmdName
-                     "use of a Nix-shell. Implies 'system-ghc: true'"
+                     "use of a Nix-shell. --nix implies 'system-ghc: true'"
                      hide
   <*> firstBoolFlags "nix-pure"
                      "use of a pure Nix-shell. Implies '--nix' and 'system-ghc: true'"
